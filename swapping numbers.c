@@ -1,12 +1,11 @@
 #include <stdio.h>
-
-int main() {
-    int a,b;
-    int temp;
+int main()
+{
+    int a=10,b=11;
   printf("Before swapping: a = %d, b = %d\n", a, b);
-   temp = a; 
+   a=10; 
     a = b;   
-    b = temp;
+    b = 11;
  printf("After swapping: a = %d, b = %d\n", a, b);
  return 0;
 }

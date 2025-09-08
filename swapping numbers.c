@@ -5,8 +5,9 @@ int main()
   printf("Before swapping: a = %d, b = %d\n", a, b);
    a = 10; 
     a = b;   
-    b = 11;
+    b = 10;
  printf("After swapping: a = %d, b = %d\n", a, b);
  return 0;
 }
+
 
